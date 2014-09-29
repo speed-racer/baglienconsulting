@@ -488,11 +488,12 @@ ul.accordion li.active .tab-container {
 }
 #header-nav ul li a:hover,
 #header-nav ul li.current a  {
-	box-shadow: inset 0 3px 0 rgba(0,0,0,0.5);
 }
+
 #header-nav ul li.current ul.sub-nav li a  {
 	box-shadow: none;
 }
+
 #header-nav .logo  {
 	position: absolute;
 	left: 0;
