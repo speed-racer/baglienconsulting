@@ -593,11 +593,28 @@ section {
 	float: left;
 	width: 100%;
 }
+
 .container {
 	width: 960px;
 	margin: 0 auto;
 	padding: 50px 0 50px;
 	overflow: hidden;
+}
+
+.answers {
+	margin: auto;
+	padding: 50px 0 50px;
+	background: url("../images/tree_bark.png");
+}
+
+.answers h3 {
+	padding: 60px 0 0 0;
+}
+
+.answers p {
+	font-size: 1.2em;
+
+
 }
 
 /* sections backs */
@@ -2296,7 +2313,7 @@ a#icon-in {
 
 	section .container,
 	footer .container,
-	#cover .container {
+	#cover .container, {
 		width: 260px;
 	}
 	.column.one-third,
@@ -2306,9 +2323,15 @@ a#icon-in {
 	.column.three-fourths {
 		width: 260px;
 	}
+	.answers h3{
+		font-size: 28px;
+	}
+	.logo a {
+		font-size: 32px;
+	}
 	h2,
 	h3 {
-		/* text-align: center; */
+		/*text-align: center;*/
 	}
 	#cover .container {
 		padding: 150px 0 100px;
