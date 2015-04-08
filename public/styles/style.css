@@ -731,6 +731,9 @@ section {
 .photo-container {
 	position: relative;
 }
+.selfy {
+	width: 200px;
+}
 #team .contacts,
 #sidebar-author .contacts {
 	position: absolute;
