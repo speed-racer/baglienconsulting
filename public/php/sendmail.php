@@ -3,7 +3,7 @@
 $email = "baglienconsulting@gmail.com";
 $subject = "Contact me";
 
-if ( isset($_POST["contact-name"]) && isset($_POST["contact-email"]) && isset($_POST["contact-message"]) ) {
+if ( isset($_POST["contact-email"]) && isset($_POST["contact-message"]) ) {
 
 	$to = $email;
 	$subject = $subject;
@@ -18,3 +18,4 @@ if ( isset($_POST["contact-name"]) && isset($_POST["contact-email"]) && isset($_
 	echo "POST request does not contain necessary data!";
 	
 }
+?>

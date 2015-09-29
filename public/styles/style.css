@@ -693,7 +693,7 @@ section {
 /* section cover */
 
 #cover {
-	background: url("../images/tree_bark.png");
+	background: url("../images/paper.jpg") repeat;
 	font-size: 1.3em;
 }
 #cover .container {
